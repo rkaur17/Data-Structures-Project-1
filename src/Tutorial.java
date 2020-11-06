@@ -26,7 +26,7 @@ public class Tutorial extends JPanel implements ActionListener {
         Scanner s = new Scanner(file);
         String listType = s.nextLine();
         String size = s.nextLine();
-        if (listType.equals("ArrayList")) { //check if data structure used is arraylist or linkedlist
+        if (listType.equals("ArrayList")) { //check if data structure used is arraylist or linkedlist.
             bodies = new ArrayList<>();
         } else {
             System.out.println("test");

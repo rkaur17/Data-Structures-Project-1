@@ -39,7 +39,7 @@ public class LinkedList<T> implements List {
         }
     }
 
-    public void remove(CelestialBody item_to_remove) { //remove celestialbody
+    public void remove(CelestialBody item_to_remove) { //remove celestialbody.
         if (item_to_remove == last.body) {
             last = last.previous;
             last.next.previous = null;

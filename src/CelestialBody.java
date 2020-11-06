@@ -1,5 +1,5 @@
 public class CelestialBody {
-    String name; //create all data members
+    String name; //create all data members.
     float mass;
     int x_coordinate;
     int y_coordinate;

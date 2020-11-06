@@ -16,7 +16,7 @@ public class ArrayList<T> implements List {
     }
     public CelestialBody get(int index){
         if(index>length){
-            throw new IndexOutOfBoundsException(); //if body is out of index
+            throw new IndexOutOfBoundsException(); //if body is out of index.
         }
         return array[index];
 
@@ -27,7 +27,7 @@ public class ArrayList<T> implements List {
             i++;
         }
         if(i == length){
-            throw new IllegalArgumentException(); //when trying to remove something that's not there
+            throw new IllegalArgumentException(); //when trying to remove something that's not there.
         }
         for(int j = i; j < length-1; j++){
             array[j] = array[j+1];
